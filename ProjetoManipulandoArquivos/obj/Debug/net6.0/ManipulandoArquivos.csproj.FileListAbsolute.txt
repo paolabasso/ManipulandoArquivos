@@ -1,0 +1,15 @@
+C:\GitHub\ManipulandoArquivos\ProjetoManipulandoArquivos\bin\Debug\net6.0\ManipulandoArquivos.exe
+C:\GitHub\ManipulandoArquivos\ProjetoManipulandoArquivos\bin\Debug\net6.0\ManipulandoArquivos.deps.json
+C:\GitHub\ManipulandoArquivos\ProjetoManipulandoArquivos\bin\Debug\net6.0\ManipulandoArquivos.runtimeconfig.json
+C:\GitHub\ManipulandoArquivos\ProjetoManipulandoArquivos\bin\Debug\net6.0\ManipulandoArquivos.dll
+C:\GitHub\ManipulandoArquivos\ProjetoManipulandoArquivos\bin\Debug\net6.0\ref\ManipulandoArquivos.dll
+C:\GitHub\ManipulandoArquivos\ProjetoManipulandoArquivos\bin\Debug\net6.0\ManipulandoArquivos.pdb
+C:\GitHub\ManipulandoArquivos\ProjetoManipulandoArquivos\obj\Debug\net6.0\ManipulandoArquivos.csproj.AssemblyReference.cache
+C:\GitHub\ManipulandoArquivos\ProjetoManipulandoArquivos\obj\Debug\net6.0\ManipulandoArquivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\ManipulandoArquivos\ProjetoManipulandoArquivos\obj\Debug\net6.0\ManipulandoArquivos.AssemblyInfoInputs.cache
+C:\GitHub\ManipulandoArquivos\ProjetoManipulandoArquivos\obj\Debug\net6.0\ManipulandoArquivos.AssemblyInfo.cs
+C:\GitHub\ManipulandoArquivos\ProjetoManipulandoArquivos\obj\Debug\net6.0\ManipulandoArquivos.csproj.CoreCompileInputs.cache
+C:\GitHub\ManipulandoArquivos\ProjetoManipulandoArquivos\obj\Debug\net6.0\ManipulandoArquivos.dll
+C:\GitHub\ManipulandoArquivos\ProjetoManipulandoArquivos\obj\Debug\net6.0\ref\ManipulandoArquivos.dll
+C:\GitHub\ManipulandoArquivos\ProjetoManipulandoArquivos\obj\Debug\net6.0\ManipulandoArquivos.pdb
+C:\GitHub\ManipulandoArquivos\ProjetoManipulandoArquivos\obj\Debug\net6.0\ManipulandoArquivos.genruntimeconfig.cache
