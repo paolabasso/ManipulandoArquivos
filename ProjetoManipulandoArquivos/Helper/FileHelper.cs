@@ -1,4 +1,6 @@
 using System.IO;
+using System.Collections.Generic;
+
 
 namespace ProjetoManipulandoArquivos.Helper
 {
@@ -38,5 +40,80 @@ namespace ProjetoManipulandoArquivos.Helper
       //será necessário especificar através do boolenado.
       // o arquivo apagado pelo C# não vai para lixeira, ele apaga de verdade
     }
+
+    public void CriarArquivoTexto(string caminho, string conteudo)
+    {
+      if (!File.Exists(caminho))
+      {
+        File.WriteAllText(caminho, conteudo);
+      }
+    }
+
+    //para arquivos grandes: trabalhar com stream
+    public void CriarArquivoTextoStream(string caminho, List<string> conteudo)
+    {
+      using (var stream = File.CreateText(caminho))
+      {
+        foreach (var linha in conteudo)
+        {
+          stream.WriteLine(linha);
+        }
+      }
+    }
+
+    public void AdicionarTexto(string caminho, string conteudo)
+    {
+      File.AppendAllText(caminho, conteudo);
+    }
+
+    public void AdicionarTextoStream(string caminho, List<string> conteudo)
+    {
+      using (var stream = File.AppendText(caminho))
+      {
+        foreach (var linha in conteudo)
+        {
+          stream.WriteLine(linha);
+        }
+      }
+    }
+
+    public void LerArquivo(string caminho)
+    {
+      var conteudo = File.ReadAllLines(caminho);
+
+      foreach (var linha in conteudo)
+      {
+        System.Console.WriteLine(linha);
+      }
+    }
+
+    public void LerArquivoStream(string caminho)
+    {
+      string linha = string.Empty;
+
+      using (var stream = File.OpenText(caminho))
+      {
+        while ((linha = stream.ReadLine()) != null)
+        {
+          System.Console.WriteLine(linha);
+        }
+      }
+    }
+
+    public void MoverArquivo(string caminho, string novoCaminho, bool sobrescrever)
+    {
+      File.Move(caminho, novoCaminho, sobrescrever);
+    }
+
+    public void CopiarArquivo(string caminho, string novoCaminho, bool sobrescrever)
+    {
+      File.Copy(caminho, novoCaminho, sobrescrever);
+    }
+
+    public void DeletarArquivo(string caminho)
+    {
+      File.Delete(caminho);
+    }
+
   }
 }
